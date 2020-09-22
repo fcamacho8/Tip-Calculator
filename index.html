@@ -16,21 +16,25 @@
         </header>
         <hr>
         <div class="row inputs">
-            <div class="row" id="bill">
-                <form action="/action_page.php">
-                    <label for="bill">Bill amount:</label>
-                    <input type="number" id="bill" name="bill" placeholder="$0.00">
-                    <br>
-                    <br>
-                </form>
-            </div>
-            <div class="row" id="tip">
-                <form action="/action_page.php">
-                    <label for="tip">Tip amount:</label>
-                    <input type="number" id="tip" name="tip" placeholder="%">
-                </form>
-            </div>
+
+            <form class="row" id="bill">
+                <label for="bill">Bill amount:</label>
+                <input type="number" id="bill" name="bill" placeholder="$0.00">
+                <br><br>
+                <label for="tip">Tip amount:</label>
+                <input type="number" id="tip" name="tip" placeholder="%">
+            </form>
+            <br><br>
+            <button id="submit">Calculate Tip</button>
+
         </div>
+        <div>
+            <h4>Tip amount: <span id="tip-amount"></span></h4>
+            <h2>Total: <span id="new-total"></span></h2>
+            <br><br>
+        </div>
+
+    </div>
 
     </div>
 
