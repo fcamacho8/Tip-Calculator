@@ -1,0 +1,15 @@
+.container {
+    margin: 0 auto;
+    width: 80%;
+  }
+header{
+    font-family: monospace;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255, 167, 158);
+    padding: 8px;
+}
+.inputs{
+    text-align: center;
+}
